@@ -22,7 +22,7 @@
     - name: Start the container
       docker_container:
         name: nodeapp
-        image: "vikas99341/cust-tomcat:1.0"
+        image: "prowesspeace/ansible "
         state: started
         published_ports:
           - 35.90.189.101:8080:8080
